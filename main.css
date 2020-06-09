@@ -55,8 +55,9 @@ margin-right:auto;
   background-image: url(assets/diamond-room.png);
   background-size: cover;
   margin-left: auto;
-  
+  transition:2s;
 }
+
 .diamond_img:hover{
   -ms-transform: scale(0.9);
   transform: scale(0.9);
