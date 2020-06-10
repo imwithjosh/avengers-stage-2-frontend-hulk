@@ -221,11 +221,14 @@ body {
   .form input {
     width: 30rem;
   }
-  .contact h3 {
-    font-size: 30px;
+  .ruby_content, .diamond_content{
+    text-align: center;
+  padding: 20px 0px;
+  /* width:100%; */
+  
   }
-  .btn {
-    width: 37%;
+  .rooms .button{
+    margin:auto
   }
 }
 
