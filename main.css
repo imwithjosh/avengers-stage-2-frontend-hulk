@@ -14,7 +14,7 @@ body {
   display: flex;
 }
 .rooms{
-  background-color:	#181818;
+  background-color:	#2C2C2C;
   color:#fff;
   padding: 40px 0;
 }
@@ -43,11 +43,13 @@ body {
 background-image: url('assets/ruby-room.png');
 background-size:cover;
 position: relative;
-
+transition:2s;
 margin-right:auto;
 }
-.rooms img:hover{
+.ruby_img:hover{
   transition:2s;
+   -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 .diamond_img{
   width: 831px;
@@ -93,11 +95,11 @@ line-height: 44px;
 
 .rooms .button{
   background: #D66939;
-border: 1px solid #000000;
+border: 1px solid #2C2C2C;
 box-sizing: border-box;
 padding:15px 32px;
 font-weight: bold;
-color:#000000;
+color:#2C2C2C;
 text-decoration: none;
 }
 .rooms .button:hover{
