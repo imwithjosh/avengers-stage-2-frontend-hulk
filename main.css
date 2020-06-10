@@ -230,7 +230,7 @@ body {
 }
 
 /*This is the code for FOOTER SECTION*/
-.column{
+/* .column{
 	float: left;
 	width: 50%;
 }
@@ -238,6 +238,18 @@ body {
 	content: "";
 	display: table;
 	clear: both;
+} */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-flow: row wrap;
+}
+
+.column ul {
+  padding: 0;
+  margin: 0;
 }
 
 #ft{
