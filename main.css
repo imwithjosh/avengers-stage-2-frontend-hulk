@@ -241,7 +241,7 @@ body {
   text-align: center;
 }
 .rooms_header h1{
-  font-size: 40px;
+  font-size: 38px;
   font-weight: bold;
 
   font-style: normal;
@@ -249,11 +249,11 @@ body {
   margin: 0;
 }
 .rooms p{
-  font-size: 26px;
+  font-size: 20px;
 
 }
 .ruby_img{
-  width: 831px;
+  width: 800px;
   height: 400px;
 background-image: url('assets/ruby-room.png');
 background-size:cover;
@@ -267,7 +267,7 @@ margin-right:auto;
   transform: scale(0.9);
 }
 .diamond_img{
-  width: 831px;
+  width: 800px;
   height: 400px;
   background-image: url(assets/diamond-room.png);
   background-size: cover;
@@ -301,7 +301,7 @@ padding: 40px;
 .rooms h4{
   margin:0;
   line-height: 37px;
-  font-size:36px;
+  font-size:33px;
   text-transform: uppercase;
 }
 .plan_per_night{
