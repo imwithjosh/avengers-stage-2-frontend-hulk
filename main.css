@@ -26,6 +26,154 @@ body {
   padding: 0 1rem;
 }
 
+
+/* style for room section*/
+
+.ruby_rooms, .diamond_room{
+  display: flex;
+}
+.rooms{
+  background-color:	#2C2C2C;
+  color:#fff;
+  padding: 40px 0;
+}
+.rooms a{
+  color:#ffffff;
+  text-decoration:none;
+}
+.rooms_header{
+  text-align: center;
+}
+.rooms_header h1{
+  font-size: 40px;
+  font-weight: bold;
+
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+.rooms p{
+  font-size: 26px;
+
+}
+.ruby_img{
+  width: 831px;
+  height: 400px;
+background-image: url('assets/ruby-room.png');
+background-size:cover;
+position: relative;
+transition:2s;
+margin-right:auto;
+}
+.ruby_img:hover{
+  transition:2s;
+   -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.diamond_img{
+  width: 831px;
+  height: 400px;
+  background-image: url(assets/diamond-room.png);
+  background-size: cover;
+  margin-left: auto;
+  transition:2s;
+}
+
+.diamond_img:hover{
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition:2s;
+}
+.ruby_rooms{
+  margin-top:80px;
+}
+.ruby_content{
+  text-align: left;
+  /* width:800px; */
+padding: 40px;
+
+}
+.diamond_content{
+  text-align: right;
+  /* width: 800px; */
+  padding: 62px 59px 62px;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+.rooms h4{
+  margin:0;
+  line-height: 37px;
+  font-size:36px;
+  text-transform: uppercase;
+}
+.plan_per_night{
+  font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+}
+
+.rooms .button{
+  background: #D66939;
+border: 1px solid #2C2C2C;
+box-sizing: border-box;
+padding:15px 32px;
+font-weight: bold;
+color:#2C2C2C;
+text-decoration: none;
+width: max-content;
+}
+.rooms .button:hover{
+  color:#ffffff;
+  transition: 2s;
+}
+.text-right{
+  text-align:right;
+}
+.icon-next{
+  margin-bottom: 12px;
+}
+.icon-next img{
+  width: 52px;
+  margin-right: 12px;
+  position: relative;
+  top: 7px;
+}
+
+.button a{
+color:#2c2c2c;
+}
+.button a:hover{
+  transform: scaleY(1.1);
+  transition: 2s;
+  color: #fff;
+}
+@media(max-width:700px){
+  .ruby_img{
+    width:100%;
+    height: 300px;
+    background-size: cover;
+  }
+  .diamond_img{
+    width:100%;
+    height: 300px;
+    background-size: cover;
+  }
+  .ruby_rooms, .diamond_room{
+    flex-direction: column;
+  }
+  .ruby_content, .diamond_content{
+    text-align: center;
+  padding: 20px 0px;
+  /* width:100%; */
+  
+  }
+  .rooms .button{
+    margin:auto
+  }
+}
+
 /* Header */
 
 .header {
