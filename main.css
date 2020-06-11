@@ -189,6 +189,7 @@
   color: #fff;
   font-size: 5rem;
   margin: 2% 0;
+  font-family:  Nottingham sans-serif;
 }
 
 .hero span {
@@ -502,9 +503,9 @@
     /* left: 90px; */
     margin: 0px;
     border-radius: 2px;
-    padding: 2px 10px;
+    padding: .2rem 1rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 }
 
@@ -521,8 +522,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 2em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
   color: #2c2c2c;
   font-size: 1.6rem;
 }
@@ -679,8 +680,11 @@ body {
     height: 300px;
     background-size: cover;
   }
-  .ruby_rooms, .diamond_room {
+  .ruby_rooms {
     flex-direction: column;
+  }
+  .diamond_room {
+    flex-direction: column-reverse;
   }
   .ruby_content, .diamond_content {
     text-align: center;
@@ -910,7 +914,7 @@ body {
     padding: 5rem 2rem;
   }
   .form input {
-    width: 30rem;
+    width: 80%;
   }
   .ruby_content, .diamond_content {
     text-align: center;
@@ -975,6 +979,7 @@ body {
 .footer a {
   display: inline-block;
   text-decoration: none;
+  color: #2c2c2c;
 }
 
 .footer li {
