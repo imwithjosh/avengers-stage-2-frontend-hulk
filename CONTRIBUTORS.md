@@ -3,6 +3,8 @@
 
 -  [@ifatoki](https://github.com/ifatoki)
 
+- [@Darey] (https://github.com/DamilareRichard)
+
 -  [@orung](https://github.com/orung)
 
 -  [@Feyikemi](https://github.com/Agboolafeyikemi)
